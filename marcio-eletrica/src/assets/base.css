@@ -138,8 +138,8 @@ h1, h2, h3 {
 .article-detail .content {
   margin-top: 80px;
   padding: 20px;
-  background-color: var(--color-surface);
-  box-shadow: var(--box-shadow);
+  /* background-color: var(--color-surface); */
+  /* box-shadow: var(--box-shadow); */
 }
 
 .article-detail .heading-primary {

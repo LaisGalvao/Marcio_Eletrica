@@ -1,7 +1,7 @@
 <template>
   <footer class="footer footer-scoped">
     <div class="footer-content">
-      <p class="text-body">&copy; 2025 Eletricista Profissional. Todos os direitos reservados.</p>
+      <p class="text-body">&copy; 2025 Galvão Elétrica. Todos os direitos reservados.</p>
       <div class="social-links">
         <a href="https://www.facebook.com" target="_blank" class="social-link">
           <i class="fab fa-facebook-f"></i> Facebook
@@ -9,7 +9,7 @@
         <a href="https://www.instagram.com" target="_blank" class="social-link">
           <i class="fab fa-instagram"></i> Instagram
         </a>
-        <a href="https://wa.me/55XXXXXXX" target="_blank" class="social-link">
+        <a href="https://wa.me/5511973183283" target="_blank" class="social-link">
           <i class="fab fa-whatsapp"></i> WhatsApp
         </a>
       </div>

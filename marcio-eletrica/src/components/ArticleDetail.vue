@@ -53,7 +53,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 800px;
+    max-width: 90%;
     margin: 0 auto;
     padding: 2rem 1rem;
     padding-top: 5rem;

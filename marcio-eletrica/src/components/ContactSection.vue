@@ -35,6 +35,16 @@ export default {
     submitForm() {
       // Aqui você pode integrar com um backend ou enviar para o WhatsApp
       alert('Formulário enviado com sucesso!');
+      // Simulating email sending
+      const emailData = {
+        to: 'example@example.com',
+        subject: 'New Contact Form Submission',
+        body: `Name: ${this.form.name}\nEmail: ${this.form.email}\nMessage: ${this.form.message}`
+      };
+
+      console.log('Email data:', emailData);
+      // Here you would typically use an email sending service API
+      // For example, using EmailJS, SendGrid, or a backend endpoint
     }
   }
 }
