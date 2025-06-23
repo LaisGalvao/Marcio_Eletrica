@@ -6,9 +6,22 @@ export const getAllArticles = async () => {
   const { data, error } = await supabase.from('articles').select('*')
 
   if (error) {
+    const fallback =  [{
+      title: 'Título',
+      description: 'Descrição'
+    }]
     console.error('Error fetching articles:', error)
-    return []
+    return fallback
   }
+  if (!data.length) {
+    const fallback =  [{
+      id: 0,
+      title: 'Título',
+      description: 'Descrição'
+    }]
+    return fallback
+  }
+
   return data
 }
 
