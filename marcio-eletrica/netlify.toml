@@ -5,13 +5,13 @@
 [build.environment]
   NODE_VERSION = "18"
 
-# Regra para SPA (Single Page Application)
+# Regras para SPA (Single Page Application)
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
 
-# Configuração de cabeçalhos de segurança
+# Cabeçalhos de segurança
 [[headers]]
   for = "/*"
   [headers.values]
