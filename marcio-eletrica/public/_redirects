@@ -1,0 +1,2 @@
+# Fallback para SPA - redireciona todas as rotas desconhecidas para index.html
+/* /index.html 200
